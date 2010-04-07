@@ -5,12 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "rack-pony"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Rack Middleware to add ponies to requests.}
+    gem.description = %Q{Rack Middleware to add an ASCII Pony to the X-Pony-For-You header.}
     gem.email = "andrew@andrewloe.com"
     gem.homepage = "http://github.com/loe/rack-pony"
     gem.authors = ["W. Andrew Loe III"]
-    # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
