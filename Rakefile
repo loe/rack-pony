@@ -10,6 +10,7 @@ begin
     gem.email = "andrew@andrewloe.com"
     gem.homepage = "http://github.com/loe/rack-pony"
     gem.authors = ["W. Andrew Loe III"]
+    gem.add_development_dependency('rack-test')
   end
   Jeweler::GemcutterTasks.new
 rescue LoadError
